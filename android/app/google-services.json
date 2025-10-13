@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "900436727408",
+    "project_id": "shop-mile-76529",
+    "storage_bucket": "shop-mile-76529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900436727408:android:2343b5a19912a84f3ac6b5",
+        "android_client_info": {
+          "package_name": "ru.rmari.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900436727408-lrbs1gpq46bfhlrk4cnef6ljdv3erid8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaBTdyCBO304t9ZIiPlqgHEscoZI_fu7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900436727408-lrbs1gpq46bfhlrk4cnef6ljdv3erid8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "900436727408-6gi40okdke1murslsd5sg7tda13kcqk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "emily.ios.ru"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900436727408:android:f042e9da15f1a3e13ac6b5",
+        "android_client_info": {
+          "package_name": "ru.shopmile.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900436727408-lrbs1gpq46bfhlrk4cnef6ljdv3erid8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaBTdyCBO304t9ZIiPlqgHEscoZI_fu7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900436727408-lrbs1gpq46bfhlrk4cnef6ljdv3erid8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "900436727408-6gi40okdke1murslsd5sg7tda13kcqk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "emily.ios.ru"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
