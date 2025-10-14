@@ -12,7 +12,12 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Дом фермера</string>
-   <key>MinimumOSVersion</key>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>MinimumOSVersion</key>
     <string>13.0</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
@@ -38,7 +43,7 @@
 		<string>tel</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
-	<true/>
+	<false/>
 	<key>NSAllowsArbitraryLoads</key>
 	<true/>
 	<key>NSAllowsArbitraryLoadsInWebContent</key>
