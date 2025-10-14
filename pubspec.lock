@@ -322,7 +322,7 @@ packages:
     source: hosted
     version: "3.12.1"
   firebase_core_platform_interface:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: firebase_core_platform_interface
       sha256: d7253d255ff10f85cfd2adaba9ac17bae878fa3ba577462451163bd9f1d1f0bf
@@ -341,10 +341,10 @@ packages:
     dependency: "direct main"
     description:
       name: firebase_messaging
-      sha256: "62fb18daf69ee5f65c0ea5ef4c611481ec50584f54a9d7bcb2de511ad821b45d"
+      sha256: "5fc345c6341f9dc69fd0ffcbf508c784fd6d1b9e9f249587f30434dd8b6aa281"
       url: "https://pub.dev"
     source: hosted
-    version: "15.0.0"
+    version: "15.2.4"
   firebase_messaging_platform_interface:
     dependency: transitive
     description:
@@ -390,14 +390,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.9+2"
-  flutter_downloader:
-    dependency: "direct main"
-    description:
-      name: flutter_downloader
-      sha256: b69b40c064d2f786ea799322a235262606f399f2bd870ad5291a5e82e512c9b1
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.11.0"
   flutter_exit_app:
     dependency: "direct main"
     description:
@@ -466,10 +458,10 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints
-      sha256: b543301ad291598523947dc534aaddc5aaad597b709d2426d3a0e0d44c5cb493
+      sha256: "3f41d009ba7172d5ff9be5f6e6e6abb4300e263aab8866d2a0842ed2a70f8f0c"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.4"
+    version: "4.0.0"
   flutter_local_notifications:
     dependency: "direct main"
     description:
@@ -502,13 +494,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
-  flutter_localizations:
-    dependency: "direct main"
-    description: flutter
-    source: sdk
-    version: "0.0.0"
   flutter_plugin_android_lifecycle:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: flutter_plugin_android_lifecycle
       sha256: "5a1e6fb2c0561958d7e4c33574674bda7b77caaca7a33b758876956f2902eea3"
@@ -694,7 +681,7 @@ packages:
     source: hosted
     version: "1.1.2"
   image_picker_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: image_picker_android
       sha256: "8bd392ba8b0c8957a157ae0dc9fcf48c58e6c20908d5880aea1d79734df090e9"
@@ -749,14 +736,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.1+1"
-  intl:
-    dependency: transitive
-    description:
-      name: intl
-      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.20.2"
   js:
     dependency: transitive
     description:
@@ -817,10 +796,10 @@ packages:
     dependency: transitive
     description:
       name: lints
-      sha256: a2c3d198cb5ea2e179926622d433331d8b58374ab8f29cdda6e863bd62fd369c
+      sha256: "976c774dd944a42e83e2467f4cc670daef7eed6295b10b36ae8c85bcbf828235"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "4.0.0"
   logging:
     dependency: transitive
     description:
@@ -1475,7 +1454,7 @@ packages:
     source: hosted
     version: "3.13.1"
   win32:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: win32
       sha256: "66814138c3562338d05613a6e368ed8cfb237ad6d64a9e9334be3f309acfca03"
@@ -1507,5 +1486,5 @@ packages:
     source: hosted
     version: "6.5.0"
 sdks:
-  dart: ">=3.8.0-0 <4.0.0"
+  dart: ">=3.8.0 <4.0.0"
   flutter: ">=3.27.0"
