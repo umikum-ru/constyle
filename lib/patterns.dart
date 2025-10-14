@@ -104,6 +104,7 @@ extension Buttons on DialogLessonInfoState{
 main.dart
 --------------------------------------------
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import 'screens/main_screen.dart';
 import 'utils.dart';

@@ -1,7 +1,6 @@
 import 'dart:io';
 
-// import 'package:android_path_provider/android_path_provider.dart';
-// import 'package:constyle/model/signin.dart';
+import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:constyle/utils.dart';
@@ -201,4 +200,11 @@ class _DownloadFileScreenState extends State<DownloadFileScreen> {
         )
     );
   }
+}
+
+@pragma('vm:entry-point')
+void downloadCallback(String id, int status, int progress) {
+  // Реализация callback функции для flutter_downloader
+  // Эта функция будет вызываться из фонового изолята
+  dprint('Download $id: status=$status, progress=$progress');
 }

@@ -124,6 +124,7 @@ class ShopMileApp extends StatelessWidget {
       ],
       supportedLocales: const [
         ui.Locale('ru'),
+        ui.Locale('en'),
       ],
       locale: const Locale("ru"),
       theme: ThemeData(
