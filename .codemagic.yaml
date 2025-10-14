@@ -14,10 +14,11 @@ workflows:
         BUNDLE_ID: "ru.avocado.ios"
       groups:
         - keystore_credentials
-      cache:
-        cache_paths:
-          - ~/.pub-cache
-          - ~/Library/Caches/CocoaPods
+
+    cache:
+      cache_paths:
+        - ~/.pub-cache
+        - ~/Library/Caches/CocoaPods
 
     scripts:
       # Очистка проекта
