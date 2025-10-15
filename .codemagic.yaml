@@ -11,7 +11,7 @@ workflows:
       vars:
         XCODE_WORKSPACE: "Runner.xcworkspace"
         XCODE_SCHEME: "Runner"
-        BUNDLE_ID: "ru.avocado.ios"
+        BUNDLE_ID: "ru.rmari.ios"
       groups:
         - keystore_credentials
 
